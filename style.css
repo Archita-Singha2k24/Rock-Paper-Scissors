@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+body{
+    background-image: url(images/bg1.jpg);
+}
+
+h1{
+    /* background-color: #d9ff01; */
+    color: rgb(238, 255, 0);
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    font-size:xxx-large;
+    font-weight: 500;
+    background-image: url(images/bg4.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #0a2b50;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 60% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 60% ;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+#user-score , #comp-score {
+    font-size: 4rem;
+    color: #050505;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: #081b3191;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
